@@ -13,6 +13,7 @@ import Adafruit_SSD1306
 import Image
 import ImageDraw
 import ImageFont
+import random
 
 
 #GPIO intitialization
@@ -67,40 +68,21 @@ def setStep(w1,w2,w3,w4):
 
 #callback function for mqtt
 def on_message(mosq, userdata, msg):
-    global delay
+    global delay,alert,adj_delay,adj_button
     try:
 		json_data = json.loads(str(msg.payload))
 		print "json_data: "+str(json_data)
-		delay = json_data['mode']
-		print 'Now! Delay is '+str(delay)
-
-		#image = Image.new('1',(128,64))
-		#draw = ImageDraw.Draw(image)
-		#draw.text((0,20), 'Conveyor:', font=font, fill=255)
-		#draw.text((0,40), 'Mixer:   ', font=font, fill=255)
-		#draw.text((70,20), '%.2f'%(1.0/delay), font=font, fill=255)
-		#draw.text((70,40), '%.2f'%(1.0/delay), font=font, fill=255)
-		#draw.text((110,20), 'm^3', font=font, fill=255)
-		#draw.text((110,40), 'm^3', font=font, fill=255)
-		#draw.line((0,35,127,35), fill=255)
-		#disp.image(image)
-		#disp.display()
-
-		if delay <= 0.01:
-			led_off(LED_2)
-			led_off(LED_3)
-			led_on(LED_1)
-		elif delay <= 0.022:
-			led_off(LED_1)
-			led_off(LED_3)
-			led_on(LED_2)
-		else:
-			led_off(LED_1)
-			led_off(LED_2)
-			led_on(LED_3)
+		if json_data['type'] == 'control':
+			delay = json_data['value']
+			print 'Now! Delay is '+str(delay)
+		elif json_data['type'] == 'alert':
+			alert = 1
+			adj_delay = json_data['value']
+		elif json_data['type'] == 'adjusting':
+			adj_button = 1
     except ValueError:
 		print 'parse wrong!'
-		return
+		#return
 
 #mqtt initializaiton
 mqtt_client = mosquitto.Mosquitto('motor1')
@@ -121,24 +103,70 @@ def motor_run():
 		setStep(1,0,0,1)
 		time.sleep(delay)
 
-global delay,loop
+global delay,loop,alert,adj_delay,adj_button
 delay = 0.004
 loop = 1
+alert = 0
+adj_delay = 1
+adj_button = 0
 
 def oled_display():
-	global delay,loop
+	global delay,loop,alert,adj_delay,adj_button
+	image = Image.open('boot.ppm').convert('1')
+	draw = ImageDraw.Draw(image)
+	draw.text((13,50), 'Windows Starting.', font=font, fill=255)
+	disp.image(image)
+	disp.display()
+	time.sleep(1)
+	image = Image.open('boot.ppm').convert('1')
+	draw = ImageDraw.Draw(image)
+	draw.text((13,50), 'Windows Starting..', font=font, fill=255)
+	disp.image(image)
+	disp.display()
+	time.sleep(1)
+	image = Image.open('boot.ppm').convert('1')
+	draw = ImageDraw.Draw(image)
+	draw.text((13,50), 'Windows Starting...', font=font, fill=255)
+	disp.image(image)
+	disp.display()
+	time.sleep(1)
+
 	while loop:
-		image = Image.new('1',(128,64))
-		draw = ImageDraw.Draw(image)
-		draw.text((0,20), 'Conveyor:', font=font, fill=255)
-		draw.text((0,40), 'Mixer:   ', font=font, fill=255)
-		draw.text((70,20), '%.2f'%(1.0/delay), font=font, fill=255)
-		draw.text((70,40), '%.2f'%(1.0/delay), font=font, fill=255)
-		draw.text((110,20), 'm^3', font=font, fill=255)
-		draw.text((110,40), 'm^3', font=font, fill=255)
-		draw.line((0,35,127,35), fill=255)
-		disp.image(image)
-		disp.display()
+		if alert == 1:
+			led_off(LED_1)
+			led_off(LED_2)
+			led_on(LED_3)
+			#image = Image.new('1',(128,64))
+			image = Image.open('alert.ppm').convert('1')
+			draw = ImageDraw.Draw(image)
+			disp.image(image)
+			disp.display()
+			if adj_button == 1:
+				image = Image.open('adjusting.ppm').convert('1')
+				draw = ImageDraw.Draw(image)
+				disp.image(image)
+				disp.display()
+				time.sleep(3)
+				delay = adj_delay
+				alert = 0
+				adj_button = 0
+		else:
+			led_off(LED_1)
+			led_off(LED_3)
+			led_on(LED_2)
+			#image = Image.new('1',(128,64))
+			image = Image.open('bk.ppm').convert('1')
+			draw = ImageDraw.Draw(image)
+			draw.text((0,20), 'Conveyor:', font=font, fill=255)
+			draw.text((0,40), 'Mixer:   ', font=font, fill=255)
+			draw.text((70,20), '%.2f'%(1.0/delay+random.uniform(-5,5)), font=font, fill=255)
+			draw.text((70,40), '%.2f'%(1.0/delay+random.uniform(-5,5)), font=font, fill=255)
+			draw.text((110,20), 'm^3', font=font, fill=255)
+			draw.text((110,40), 'm^3', font=font, fill=255)
+			draw.line((0,35,127,35), fill=255)
+			disp.image(image)
+			disp.display()
+			time.sleep(1)
 
 #start motor_run thread
 t = threading.Thread(target=motor_run)
