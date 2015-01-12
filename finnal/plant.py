@@ -14,6 +14,7 @@ from PIL import Image
 import ImageDraw
 import ImageFont
 import random
+import traceback
 
 
 #GPIO intitialization
@@ -42,11 +43,24 @@ GPIO.setup(LED_2,GPIO.OUT)
 GPIO.setup(LED_3,GPIO.OUT)
 
 RST = 24
-disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST)
-disp.begin()
-disp.clear()
-disp.display()
+#i2c display init
+try:
+	disp = Adafruit_SSD1306.SSD1306_128_64(rst=RST)
+	disp.begin()
+	disp.clear()
+	disp.display()
+except:
+	f = open('./error.log','a')
+	f.write('=====================['+time.ctime()+']===================\n')
+	traceback.print_exc(file=f)
+	f.flush()
+	f.close()
+
+#font setup
 font = ImageFont.load_default()
+font1 = ImageFont.truetype("FreeSans.ttf",18)
+font2 = ImageFont.truetype("FreeSans.ttf",14)
+font3 = ImageFont.truetype("FreeSans.ttf",12)
 
 
 def led_off(pin):
@@ -69,7 +83,7 @@ def setStep(w1,w2,w3,w4):
 #callback function for mqtt
 def on_message(mosq, userdata, msg):
     global delay,alert,adj_delay,adj_button
-    try:
+	try:
 		json_data = json.loads(str(msg.payload))
 		print "json_data: "+str(json_data)
 		if json_data['type'] == 'control':
@@ -80,15 +94,18 @@ def on_message(mosq, userdata, msg):
 			adj_delay = json_data['value']
 		elif json_data['type'] == 'adjusting':
 			adj_button = 1
-    except ValueError:
-		print 'parse wrong!'
-		#return
+	except:
+		f = open('./error.log','a')
+		f.write('=====================['+time.ctime()+']===================\n')
+		traceback.print_exc(file=f)
+		f.flush()
+		f.close()
 
 #mqtt initializaiton
 mqtt_client = mosquitto.Mosquitto('motor1')
 mqtt_client.on_message = on_message
 mqtt_client.connect('127.0.0.1')
-mqtt_client.subscribe('pump')
+mqtt_client.subscribe('pump_alert')
 
 #motor run thread
 def motor_run():
@@ -112,61 +129,70 @@ adj_button = 0
 
 def oled_display():
 	global delay,loop,alert,adj_delay,adj_button
-	image = Image.open('boot.ppm').convert('1')
-	draw = ImageDraw.Draw(image)
-	draw.text((13,50), 'Windows Starting.', font=font, fill=255)
-	disp.image(image)
-	disp.display()
-	time.sleep(1)
-	image = Image.open('boot.ppm').convert('1')
-	draw = ImageDraw.Draw(image)
-	draw.text((13,50), 'Windows Starting..', font=font, fill=255)
-	disp.image(image)
-	disp.display()
-	time.sleep(1)
-	image = Image.open('boot.ppm').convert('1')
-	draw = ImageDraw.Draw(image)
-	draw.text((13,50), 'Windows Starting...', font=font, fill=255)
-	disp.image(image)
-	disp.display()
-	time.sleep(1)
+	try:
+		image = Image.open('boot.ppm').convert('1')
+		draw = ImageDraw.Draw(image)
+		draw.text((13,50), 'Windows Starting.', font=font, fill=255)
+		disp.image(image)
+		disp.display()
+		time.sleep(1)
+		image = Image.open('boot.ppm').convert('1')
+		draw = ImageDraw.Draw(image)
+		draw.text((13,50), 'Windows Starting..', font=font, fill=255)
+		disp.image(image)
+		disp.display()
+		time.sleep(1)
+		image = Image.open('boot.ppm').convert('1')
+		draw = ImageDraw.Draw(image)
+		draw.text((13,50), 'Windows Starting...', font=font, fill=255)
+		disp.image(image)
+		disp.display()
+		time.sleep(1)
+	except:
+		f = open('./error.log','a')
+		f.write('=====================['+time.ctime()+']===================\n')
+		traceback.print_exc(file=f)
+		f.flush()
+		f.close()
 
 	while loop:
-		if alert == 1:
-			led_off(LED_1)
-			led_off(LED_2)
-			led_on(LED_3)
-			#image = Image.new('1',(128,64))
-			image = Image.open('alert.ppm').convert('1')
-			draw = ImageDraw.Draw(image)
-			disp.image(image)
-			disp.display()
-			if adj_button == 1:
-				image = Image.open('adjusting.ppm').convert('1')
+		try:
+			if alert == 1:
+				led_off(LED_1)
+				led_off(LED_2)
+				led_on(LED_3)
+				image = Image.open('alert.ppm').convert('1')
 				draw = ImageDraw.Draw(image)
 				disp.image(image)
 				disp.display()
-				time.sleep(3)
-				delay = adj_delay
-				alert = 0
-				adj_button = 0
-		else:
-			led_off(LED_1)
-			led_off(LED_3)
-			led_on(LED_2)
-			#image = Image.new('1',(128,64))
-			image = Image.open('bk.ppm').convert('1')
-			draw = ImageDraw.Draw(image)
-			draw.text((0,20), 'Conveyor:', font=font, fill=255)
-			draw.text((0,40), 'Mixer:   ', font=font, fill=255)
-			draw.text((70,20), '%.2f'%(1.0/delay+random.uniform(-5,5)), font=font, fill=255)
-			draw.text((70,40), '%.2f'%(1.0/delay+random.uniform(-5,5)), font=font, fill=255)
-			draw.text((110,20), 'm^3', font=font, fill=255)
-			draw.text((110,40), 'm^3', font=font, fill=255)
-			draw.line((0,35,127,35), fill=255)
-			disp.image(image)
-			disp.display()
-			time.sleep(1)
+				if adj_button == 1:
+					image = Image.open('adjusting.ppm').convert('1')
+					draw = ImageDraw.Draw(image)
+					disp.image(image)
+					disp.display()
+					time.sleep(3)
+					delay = adj_delay
+					alert = 0
+					adj_button = 0
+			else:
+				led_off(LED_1)
+				led_off(LED_3)
+				led_on(LED_2)
+				image = Image.open('bk.ppm').convert('1')
+				draw = ImageDraw.Draw(image)
+				draw.text((0,20), 'Conveyor', font=font2, fill=255)
+				draw.text((80,20), 'Mixer', font=font2, fill=255)
+				draw.text((0,40), '%.2f'%(1.0/delay+random.uniform(-5,5)), font=font1, fill=255)
+				draw.text((70,40), '%.2f'%(1.0/delay+random.uniform(-5,5)), font=font1, fill=255)
+				disp.image(image)
+				disp.display()
+				time.sleep(1)
+		except:
+			f = open('./error.log','a')
+			f.write('=====================['+time.ctime()+']===================\n')
+			traceback.print_exc(file=f)
+			f.flush()
+			f.close()
 
 #start motor_run thread
 t = threading.Thread(target=motor_run)
@@ -180,10 +206,10 @@ while loop :
 		if ret == 0:
 			print 'mqtt listening!'
 		else:
-			mqtt_client.unsubscribe('pump')#motor_geer
+			mqtt_client.unsubscribe('pump_alert')#motor_geer
 			mqtt_client.disconnect()
 			mqtt_client.connect('127.0.0.1')
-			mqtt_client.subscribe('pump')
+			mqtt_client.subscribe('pump_alert')
     except KeyboardInterrupt:
 		print 'BYE!'
 		loop = 0
