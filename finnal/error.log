@@ -1,0 +1,2930 @@
+=====================[Mon Jan 12 13:19:11 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 49, in <module>
+    disp.begin()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 146, in begin
+    self._initialize()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 243, in _initialize
+    self.command(SSD1306_DISPLAYOFF)                    # 0xAE
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:11 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 137, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:11 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:11 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:11 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:11 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:11 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:11 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:12 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:12 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:12 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:12 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:12 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:12 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:12 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:12 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:12 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:12 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:12 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:13 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:13 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:13 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:13 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:13 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:13 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:13 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:13 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:13 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:13 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:13 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:13 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:14 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:14 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:14 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:14 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:14 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:14 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:14 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:14 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:14 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:14 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:14 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:15 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:15 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:15 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:15 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:15 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:15 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:15 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:15 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:15 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:15 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:15 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:16 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:16 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:16 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:16 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:16 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:16 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:16 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:16 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:16 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:16 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:46 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 49, in <module>
+    disp.begin()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 146, in begin
+    self._initialize()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 243, in _initialize
+    self.command(SSD1306_DISPLAYOFF)                    # 0xAE
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:46 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 137, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:46 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:46 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:46 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:46 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:46 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:47 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:47 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:47 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:47 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:47 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:47 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:47 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:47 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:47 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:47 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:47 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:48 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:48 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:48 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:48 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:48 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:48 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:48 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:48 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:48 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:48 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:48 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:48 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:49 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:49 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:49 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:49 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:49 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:49 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:49 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:49 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:49 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:49 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:49 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:50 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:50 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:50 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:50 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:50 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:50 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:50 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:50 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:50 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:50 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:50 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:50 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:51 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:51 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:51 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:51 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:51 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:51 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:51 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:51 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:51 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:51 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:51 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:51 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:52 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:52 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:52 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:52 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:52 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:52 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:52 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:52 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:52 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:52 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:52 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:53 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:53 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:53 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:53 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:53 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:53 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:53 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:53 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:53 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:53 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:53 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:53 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:54 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:54 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:54 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:54 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:54 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:54 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:54 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:54 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:54 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:54 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:54 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:55 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:55 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:55 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:55 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:55 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:55 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:55 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:55 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:55 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:55 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:55 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:55 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:56 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:56 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:56 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:56 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:56 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:56 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:56 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:56 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:56 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:56 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:56 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:56 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:57 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:57 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:57 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:57 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:57 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:57 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:57 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:57 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:57 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:57 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:57 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:58 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:58 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:58 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:58 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:58 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:58 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:58 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:58 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:58 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:58 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:58 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:58 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:59 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:59 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:59 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:59 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:59 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:59 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:59 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:59 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:59 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:59 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:19:59 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:00 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:00 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:00 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:00 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:00 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:00 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:00 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:00 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:00 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:00 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:00 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:01 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:01 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:01 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:01 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:01 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:01 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:01 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:01 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:01 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:01 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:01 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:01 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:02 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:02 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:02 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:02 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:02 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:02 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:02 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:02 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:02 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:02 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:02 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:03 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:03 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:03 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:03 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:03 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:03 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:03 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:03 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:03 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:03 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:03 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
+=====================[Mon Jan 12 13:20:04 2015]===================
+Traceback (most recent call last):
+  File "plant.py", line 188, in oled_display
+    disp.display()
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 163, in display
+    self.command(SSD1306_COLUMNADDR)
+  File "build/bdist.linux-armv6l/egg/Adafruit_SSD1306/SSD1306.py", line 127, in command
+    self._i2c.write8(control, c)
+  File "build/bdist.linux-armv6l/egg/Adafruit_GPIO/I2C.py", line 109, in write8
+    self._bus.write_byte_data(self._address, register, value)
+IOError: [Errno 5] Input/output error
